@@ -22,6 +22,13 @@ module.exports = {
           900: "#141414",
         },
       },
+      width: {
+        card: "24rem",
+        avatar: "5.625rem",
+      },
+      height: {
+        avatar: "5.625rem",
+      },
     },
   },
   plugins: [],
