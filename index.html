@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A social profile card for displaing a list of social profiles (links)"
+    />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32-DQjEQYWa.png"
+    />
+    <title>Frontend Mentor | Social links profile</title>
+    <link rel="stylesheet" crossorigin href="./assets/index-C8_0FZb8.css">
+  </head>
+  <body
+    class="grid min-h-screen place-content-center bg-gray-900 px-6 font-serif text-sm font-semibold text-white"
+  >
+    <main>
+      <article
+        class="flex w-card flex-col items-center space-y-6 rounded-xl bg-gray-800 p-10 text-center"
+      >
+        <div>
+          <img
+            class="h-avatar w-avatar rounded-full object-cover"
+            src="data:image/jpeg;base64,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"
+            alt="A woman with a voluminous afro hairstyle is seated, exuding confidence and style in her relaxed posture."
+          />
+        </div>
+        <div>
+          <h1 class="text-2xl font-bold">Jessica Randall</h1>
+          <address class="mt-2 not-italic text-green">
+            London, United Kingdom
+          </address>
+          <q class="mt-6 inline-block font-normal"
+            >Front-end developer and avid reader.</q
+          >
+        </div>
+        <address class="flex flex-col space-y-4 self-stretch not-italic">
+          <a
+            class="rounded-md bg-gray-700 py-3 duration-200 hover:bg-green hover:text-gray-900"
+            href="#"
+            >GitHub</a
+          >
+          <a
+            class="rounded-md bg-gray-700 py-3 duration-200 hover:bg-green hover:text-gray-900"
+            href="#"
+            >Frontend Mentor</a
+          >
+          <a
+            class="rounded-md bg-gray-700 py-3 duration-200 hover:bg-green hover:text-gray-900"
+            href="#"
+            >LinkedIn</a
+          >
+          <a
+            class="rounded-md bg-gray-700 py-3 duration-200 hover:bg-green hover:text-gray-900"
+            href="#"
+            >Twitter</a
+          >
+          <a
+            class="rounded-md bg-gray-700 py-3 duration-200 hover:bg-green hover:text-gray-900"
+            href="#"
+            >Instagram</a
+          >
+        </address>
+      </article>
+    </main>
+  </body>
+</html>
