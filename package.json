@@ -1,7 +1,7 @@
 {
   "name": "social-links-profile",
   "version": "1.0.0",
-  "description": "![Design preview for the Social links profile coding challenge](./preview.jpg)",
+  "description": "Design preview for the Social links profile coding challenge",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
